@@ -75,3 +75,17 @@
 - It is better to extract the bodies of the try and catch blocks out into functions of their own.
 ### Error Handling Is One Thing
 - Functions should do one thing. Error handling is one thing.
+### The Error.java Dependency Magnet
+- Use exceptions rather than error codes.
+
+## Don't Repeat Yourself
+
+## Structured Programming
+- One entry, one exit.
+- If you keep your functions small, then the occasional multiple return, break, or continue statement does no harm and can sometimes even be more expressive than the single entry, single exit rule.
+- goto only makes sense in large functions.
+
+## How do you write functions like this?
+- Step by step.
+- Message, refine, split, rename, eliminate duplication, test code
+
