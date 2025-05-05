@@ -36,7 +36,7 @@
   - Arguments at a different level of abstraction force you to know a detail.
   - Hard to test.
 ### Common Monadic Forms
-- 1. Asking about that arguments, 2. Transforming it into something else and returning it -> Naming is important
+- Asking about that arguments, Transforming it into something else and returning it -> Naming is important
 - Event -> there is an input argument but no output argument. -> Name and contexts
 - Don't follow these forms.
   - Using an output argument instead of a return value for a transformation is confusing.
