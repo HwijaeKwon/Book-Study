@@ -4,3 +4,6 @@
 - How?
   - Seperating the things that change for different reasons (SRP)
   - Organizing the dependencies between those things properly (DIP)
+ 
+## Directional Control
+## Information Hiding
