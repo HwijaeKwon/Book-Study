@@ -50,3 +50,15 @@
     ArrayList moduleDependees = smodule.getDependSubsystems(); String ourSubSystem = subSysMod.getSubSystem();
     if (moduleDependees.contains(ourSubSystem))
     ```
+- Position Makers
+- Closing Brace Comments
+- Attributions and Bylines
+- Commented-Out Code
+- HTML Comments
+- Nonlocal Information
+  - Don't offer systemwide information in the context of a local comment.
+- Too Much Information
+- Inobvious Connection
+- Function Headers
+- Javadocs in Nonpublic Code
+- 
