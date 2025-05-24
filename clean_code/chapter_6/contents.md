@@ -9,5 +9,16 @@
 ## The Law of Demeter
 - A module should not know about the innards of the objects it manipulates.
 
-## Train Wrecks
-- 
+## Active Record
+- Unfortunately we often find that developers try to treat these data strucutures as though they were objects by putting business rule methods in them. (Sorry...)
+- The solution, of course, is to treat the Action Record as a data structure and to create seperate objects that contain the business rules and that hide their internal data.
+
+## Conclusion
+- Object : expose behavior and hide data
+  - easy to add new kinds of objects without changing existing behaviors
+  - hard to add new behaviors to existing objects
+- Data structure : expose data and have no significant behavior
+  - easy to add new behaviors to existing data structures
+  - hard to add new data strucutures to existing functions
+- Flexibility!!!
+- Good software developers understand these issues without prejudice and choose the approach that is best for the job at hand.
